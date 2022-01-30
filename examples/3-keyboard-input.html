@@ -86,34 +86,34 @@ var chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
 // conversation object defined separately, but just the same as in the
 // "Basic chat-bubble Example" (1-basics.html)
 var convo = {
-  start: {
-    says: ["Hi", "What would you like to post?"],
+  ice: {
+    says: ["Hi", "What would you like to do?"],
     reply: [
       {
-        question: "Job Posting",
-        answer: "postJob"
+        question: "Post Job",
+        answer: "banana"
       },
       {
-        question: "Job Searching",
-        answer: "getJob"
+        question: "Search Job",
+        answer: "ice-cream"
       }
     ]
   },
-  postJob: {
-    says: ["🍌"],
+  banana: {
+    says: ["Type the title"],
     reply: [
       {
         question: "Start Over",
-        answer: "start"
+        answer: "ice"
       }
     ]
   },
-  "getJob": {
-    says: ["🍦"],
+  "ice-cream": {
+    says: ["Search Keyword"],
     reply: [
       {
         question: "Start Over",
-        answer: "start"
+        answer: "ice"
       }
     ]
   }
