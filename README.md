@@ -1,9 +1,9 @@
-# `chat-bubble` 👋🤖🤙
+# `chat-bubble`
 
 [![npm version](https://badge.fury.io/js/chat-bubble.svg)](https://badge.fury.io/js/chat-bubble)
 ![downloads](https://img.shields.io/npm/dt/chat-bubble.svg)
 
-> Simple chatbot UI for the Web with JSON scripting 👋🤖🤙
+> Simple chatbot UI for the Web with JSON scripting
 
 ![Screenshot](screenshot.gif?raw=true)
 
