@@ -5,8 +5,6 @@
 
 > Simple chatbot UI for the Web with JSON scripting
 
-![Screenshot](screenshot.gif?raw=true)
-
 - Quick set-up & implementation.
 - Works with or without Natural Language Classifiers.
 - 1KB GZipped. No dependencies. Written with ES5 (compatible with IE11+).
