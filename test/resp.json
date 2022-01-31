@@ -1,0 +1,33 @@
+var convo = {
+		ice: {
+			says: ["Hi", "What are you looking for"],
+			reply: [
+				{
+					question: "Job Posting",
+					answer: "jobPosting",
+				},
+				{
+					question: " Job Seeking",
+					answer: "jobSeeking",
+				},
+			],
+		},
+		"jobPosting": {
+			says: ["Alright!"],
+			reply: [
+				{
+					question: "Here are the categories:",
+					answer: "NA",
+				},
+			],
+		},
+		"jobSeeking": {
+			says: ["Alright!"],
+			reply: [
+				{
+					question: "Here are the options",
+					answer: "NA",
+				},
+			],
+		},
+	};
