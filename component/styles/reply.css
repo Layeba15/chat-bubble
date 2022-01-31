@@ -2,7 +2,7 @@
 .bubble.reply {
   background: transparent;
   box-shadow: none;
-  float: right;
+  float: left;
   position: relative;
   transform-origin: right top;
   margin: 8px 0 10px;
@@ -28,7 +28,7 @@
   margin-left: 2px;
   text-align: center;
   display: inline-block;
-  float: right;
+  float: left;
   cursor: pointer;
   transition: all 200ms;
   text-decoration: none;
@@ -69,6 +69,7 @@
 }
 .bubble.reply.bubble-picked .bubble-content .bubble-button {
   transform: scale(0) translate3d(0px, 0px, 0px);
+	float: right;
   padding: 0;
 }
 .bubble.reply:not(.bubble-picked) .bubble-content .bubble-button:hover,
