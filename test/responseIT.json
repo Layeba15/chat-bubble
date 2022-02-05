@@ -1,0 +1,15 @@
+var convoIT = {
+        ice: {
+			says: ["These are the latest job posted in Software/ IT"],
+			reply: [
+				{
+					question: "Find Jobs, Internships, and other opportunities",
+					answer: "findJobs",
+				},
+				{
+					question: "Post Jobs, Internships, and other opportunities",
+					answer: "postJobs",
+				},
+			],
+		},
+}
