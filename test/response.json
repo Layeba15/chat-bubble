@@ -3,7 +3,7 @@ var convo = {
 			says: ["Hi", "What are you looking for today"],
 			reply: [
 				{
-					question: "Find Jobs and Internships",
+					question: "Find Jobs, Internships, and other opportunities",
 					answer: "findJobs",
 				},
 				{
