@@ -1,57 +1,67 @@
 {
-	ice: {
-		says: ["Hi", "What are you looking for today"],
-		reply: [
-			{
-				question: "Find Jobs, Internships, and other opportunities",
-				answer: "findJobs",
-			},
-			{
-				question: "Post Jobs, Internships, and other opportunities",
-				answer: "postJobs",
-			},
-		],
-	},
-	"findJobs": {
-		says: ["Alright!","In which domain are you interested in?"],
-		reply: [
-			{
-				question: "Software/ IT",
-				answer: "IT",
-			},
-			{
-				question: "Electrical/ Electronics",
-				answer: "ELE",
-			},
-			{
-				question: "Mechanical Engg.",
-				answer: "MECH",
-			},
-			{
-				question: "Management",
-				answer: "MGMT",
-			},
-			{
-				question: "Mining Engg.",
-				answer: "MINE",
-			},
-			{
-				question: "Civil Engg.",
-				answer: "MECH",
-			},
-			{
-				question: "Others",
-				answer: "ETC",
-			},
-		],
-	},
-	"postJobs": {
-		says: ["Alright!", "Here's the link:", "<a href='https://alumni.iitism.ac.in/alumni/index.php/Home/job_notification'>Click Here</a>"],
-		reply: [
-			{
-				question: "Start Over",
-				answer: "ice",
-			},
-		],
-	},
-};
+  "ice": {
+    "says": [
+      "Hi",
+      "What are you looking for today"
+    ],
+    "reply": [
+      {
+        "question": "Find Jobs, Internships, and other opportunities",
+        "answer": "findJobs"
+      },
+      {
+        "question": "Post Jobs, Internships, and other opportunities",
+        "answer": "postJobs"
+      }
+    ]
+  },
+  "findJobs": {
+    "says": [
+      "Alright!",
+      "In which domain are you interested in?"
+    ],
+    "reply": [
+      {
+        "question": "Software/ IT",
+        "answer": "IT"
+      },
+      {
+        "question": "Electrical/ Electronics",
+        "answer": "ELE"
+      },
+      {
+        "question": "Mechanical Engg.",
+        "answer": "MECH"
+      },
+      {
+        "question": "Management",
+        "answer": "MGMT"
+      },
+      {
+        "question": "Mining Engg.",
+        "answer": "MINE"
+      },
+      {
+        "question": "Civil Engg.",
+        "answer": "MECH"
+      },
+      {
+        "question": "Others",
+        "answer": "ETC"
+      }
+    ]
+  },
+  "postJobs": {
+    "says": [
+      "Alright!",
+      "Here's the link:",
+      "<a href='https://alumni.iitism.ac.in/alumni/index.php/Home/job_notification'>Click Here</a>"
+    ],
+    "reply": [
+      {
+        "question": "Start Over",
+        "answer": "ice"
+      }
+    ]
+  }
+}
