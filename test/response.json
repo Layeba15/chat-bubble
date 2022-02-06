@@ -55,7 +55,7 @@
     "says": [
       "Alright!",
       "Here's the link:",
-      "<a href='https://alumni.iitism.ac.in/alumni/index.php/Home/job_notification'>Click Here</a>"
+      "<a href='https://alumni.iitism.ac.in/alumni/index.php/Home/job_notification' target='disp'>Click Here</a>"
     ],
     "reply": [
       {
