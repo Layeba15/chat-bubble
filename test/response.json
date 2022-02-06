@@ -1,69 +1,57 @@
 {
-		ice: {
-			says: ["Hi", "What are you looking for today"],
-			reply: [
-				{
-					question: "Find Jobs, Internships, and other opportunities",
-					answer: "findJobs",
-				},
-				{
-					question: "Post Jobs, Internships, and other opportunities",
-					answer: "postJobs",
-				},
-			],
-		},
-		"findJobs": {
-			says: ["Alright!","In which domain are you interested in?"],
-			reply: [
-				{
-					question: "Software/ IT",
-					answer: "IT",
-				},
-				{
-					question: "Electrical/ Electronics",
-					answer: "ELE",
-				},
-				{
-					question: "Mechanical Engg.",
-					answer: "MECH",
-				},
-				{
-					question: "Management",
-					answer: "MGMT",
-				},
-				{
-					question: "Mining Engg.",
-					answer: "MINE",
-				},
-				{
-					question: "Civil Engg.",
-					answer: "MECH",
-				},
-				{
-					question: "Others",
-					answer: "ETC",
-				},
-			],
-		},
-		"postJobs": {
-			says: ["Alright!", "Here's the link:", "<a href='https://alumni.iitism.ac.in/alumni/index.php/Home/job_notification'>Click Here</a>"],
-			reply: [
-				{
-					question: "Start Over",
-					answer: "ice",
-				},
-			],
-		},
-	};
-
-IT = function() {
-	// together with the function we'll restart the conversation starting from "capther-four"
-	// to make sure the user isn't left hanging after the function below has been executed
-	document.getElementById("addScript").innerHTML = '<script src="./responseIT.json"></script>'
-	chatWindow.talk(convoIT)
-	// function that opens external window
-	window.open(
-		"https://alumni.iitism.ac.in/alumni/index.php/Home/dashboard",
-		"_blank"
-	)
-}
+	ice: {
+		says: ["Hi", "What are you looking for today"],
+		reply: [
+			{
+				question: "Find Jobs, Internships, and other opportunities",
+				answer: "findJobs",
+			},
+			{
+				question: "Post Jobs, Internships, and other opportunities",
+				answer: "postJobs",
+			},
+		],
+	},
+	"findJobs": {
+		says: ["Alright!","In which domain are you interested in?"],
+		reply: [
+			{
+				question: "Software/ IT",
+				answer: "IT",
+			},
+			{
+				question: "Electrical/ Electronics",
+				answer: "ELE",
+			},
+			{
+				question: "Mechanical Engg.",
+				answer: "MECH",
+			},
+			{
+				question: "Management",
+				answer: "MGMT",
+			},
+			{
+				question: "Mining Engg.",
+				answer: "MINE",
+			},
+			{
+				question: "Civil Engg.",
+				answer: "MECH",
+			},
+			{
+				question: "Others",
+				answer: "ETC",
+			},
+		],
+	},
+	"postJobs": {
+		says: ["Alright!", "Here's the link:", "<a href='https://alumni.iitism.ac.in/alumni/index.php/Home/job_notification'>Click Here</a>"],
+		reply: [
+			{
+				question: "Start Over",
+				answer: "ice",
+			},
+		],
+	},
+};
