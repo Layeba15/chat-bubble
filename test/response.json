@@ -1,4 +1,4 @@
-var convo = {
+{
 		ice: {
 			says: ["Hi", "What are you looking for today"],
 			reply: [
@@ -46,7 +46,7 @@ var convo = {
 			],
 		},
 		"postJobs": {
-			says: ["Alright!", "Here's the link:", "<a target='_blank' href='https://alumni.iitism.ac.in/alumni/index.php/Home/job_notification'>Click Here</a>"],
+			says: ["Alright!", "Here's the link:", "<a href='https://alumni.iitism.ac.in/alumni/index.php/Home/job_notification'>Click Here</a>"],
 			reply: [
 				{
 					question: "Start Over",
