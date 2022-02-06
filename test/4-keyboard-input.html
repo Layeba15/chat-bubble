@@ -84,7 +84,16 @@
 				found ? match(found) : miss()
 			}
 		}) // done setting up chat-bubble
-
-		chatWindow.talk(convo)
+		
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				// Typical action to be performed when the document is ready:
+				var convo = JSON.parse(this.responseText);
+				chatWindow.talk(convo)
+			}
+		};
+		xmlhttp.open("GET", "response.json");
+		xmlhttp.send();
 	</script>
 </body>
