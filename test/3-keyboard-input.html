@@ -85,16 +85,18 @@
 		}) // done setting up chat-bubble
 
 		var xmlhttp = new XMLHttpRequest();
-		var convo = {};
 		xmlhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
 				// Typical action to be performed when the document is ready:
-				convo = JSON.parse(this.responseText);
+				var convo = JSON.parse(this.responseText);
 				chatWindow.talk(convo)
 			}
 		};
 		xmlhttp.open("GET", "response.json");
 		xmlhttp.send();
+		IT = function() {
+			chatWindow.talk(convo);
+			window.open('https://alumni.iitism.ac.in/alumni/index.php/Home/dashboard','_blank');
+		}
 	</script>
-	<script src="./add.js"></script>
 </body>
