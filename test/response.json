@@ -18,7 +18,7 @@
   "findJobs": {
     "says": [
       "Alright!",
-      "<p>In which domain are you interested in?</p><script src='add.js'></script>"
+      "<p>In which domain are you interested in?</p><script src='./add.js'></script>"
     ],
     "reply": [
       {
