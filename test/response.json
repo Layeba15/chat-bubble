@@ -27,27 +27,27 @@
       },
       {
         "question": "Electrical/ Electronics",
-        "answer": "ELE"
+        "answer": "IT"
       },
       {
         "question": "Mechanical Engg.",
-        "answer": "MECH"
+        "answer": "IT"
       },
       {
         "question": "Management",
-        "answer": "MGMT"
+        "answer": "IT"
       },
       {
         "question": "Mining Engg.",
-        "answer": "MINE"
+        "answer": "IT"
       },
       {
         "question": "Civil Engg.",
-        "answer": "MECH"
+        "answer": "IT"
       },
       {
         "question": "Others",
-        "answer": "ETC"
+        "answer": "IT"
       }
     ]
   },
@@ -62,16 +62,6 @@
         "question": "Start Over",
         "answer": "ice"
       }
-    ]
-  },
-  "IT": {
-    "says": [
-      "Alright!",
-      "Here's the link:"
-    ],
-    "reply": [
-      "question": "Redirect me",
-      "answer": "function() {chatWindow.talk(convo);window.open('https://alumni.iitism.ac.in/alumni/index.php/Home/dashboard','displayOthers');}"
     ]
   }
 }
